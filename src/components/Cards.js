@@ -1,6 +1,7 @@
 import React from "react";
 import "./Cards.css";
 import CardItem from "./CardItem";
+import img18 from "../images/IMG_1838.jpg";
 
 function Cards() {
   return (
@@ -10,7 +11,7 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="../../images/img-9.jpg"
+              src={img18}
               text="Explore the hidden waterfall deep inside the Amazon Jungle"
               label="Adventure"
               path="/services"
