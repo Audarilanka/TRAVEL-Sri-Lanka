@@ -2,6 +2,8 @@ import React from "react";
 import "./Cards.css";
 import CardItem from "./CardItem";
 import img18 from "../images/IMG_1838.jpg";
+import img1 from "../images/IMG_1838.jpg";
+import img2 from "../images/IMG_1838.jpg";
 
 function Cards() {
   return (
@@ -19,7 +21,7 @@ function Cards() {
             <CardItem
               src="images/img-2.jpg"
               text="Travel through the Islands of Bali in a Private Cruise"
-              label="Luxury"
+              label="Beach"
               path="/services"
             />
           </ul>
