@@ -2,7 +2,7 @@ import React from "react";
 import "./Cards.css";
 import CardItem from "./CardItem";
 import img18 from "../images/IMG_1838.jpg";
-import img1 from "../images/IMG_1838.jpg";
+import beach from "../images/Tangalle.jpg";
 import img2 from "../images/IMG_1838.jpg";
 
 function Cards() {
@@ -19,7 +19,7 @@ function Cards() {
               path="/services"
             />
             <CardItem
-              src="images/img-2.jpg"
+              src={beach}
               text="Travel through the Islands of Bali in a Private Cruise"
               label="Beach"
               path="/services"
