@@ -4,6 +4,8 @@ import CardItem from "./CardItem";
 import img18 from "../images/IMG_1838.jpg";
 import beach from "../images/Tangalle.jpg";
 import img2 from "../images/IMG_1838.jpg";
+import img from "../images/IMG_1838.jpg";
+import img0 from "../images/IMG_1838.jpg";
 
 function Cards() {
   return (
