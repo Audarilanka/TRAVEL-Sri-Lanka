@@ -31,7 +31,7 @@ function Cards() {
             <CardItem
               src="images/img-3.jpg"
               text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
-              label="Mystery"
+              label="Hiking"
               path="/services"
             />
             <CardItem
