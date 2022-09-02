@@ -3,9 +3,9 @@ import "./Cards.css";
 import CardItem from "./CardItem";
 import img18 from "../images/IMG_1838.jpg";
 import beach from "../images/Tangalle.jpg";
-import img2 from "../images/IMG_1838.jpg";
-import img from "../images/IMG_1838.jpg";
-import img0 from "../images/IMG_1838.jpg";
+import Hike from "../images/hike.jpg";
+import temple from "../images/temple.jpg";
+import Hikkaduwa from "../images/Hikkaduwa.jpg";
 
 function Cards() {
   return (
@@ -16,34 +16,35 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src={img18}
-              text="Explore the hidden waterfall deep inside the Amazon Jungle"
+              text="Explore the hidden waterfalls deep inside the Sri Lanka"
               label="Adventure"
               path="/services"
             />
             <CardItem
               src={beach}
-              text="Travel through the Islands of Bali in a Private Cruise"
+              text="Enjoy the beauty of the beautiful beach"
               label="Beach"
               path="/services"
             />
           </ul>
           <ul className="cards__items">
             <CardItem
-              src="images/img-3.jpg"
+              src={Hike}
               text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
               label="Hiking"
               path="/services"
             />
             <CardItem
-              src="images/img-4.jpg"
-              text="Experience Football on Top of the Himilayan Mountains"
-              label="culture"
+              src={temple}
+              text="Experience the cultural diversity in Sri Lanka"
+              label="Culture Places"
               path="/products"
             />
             <CardItem
-              src="images/img-8.jpg"
-              text="Ride through the Sahara Desert on a guided camel tour"
-              label="Adrenaline"
+              src={Hikkaduwa}
+              text="Enjoy and explore the beautiful coral reefs of Sri Lanka.
+              Coral reefs have been a valuable resource for Sri Lanka for centuries"
+              label="Coral"
               path="/sign-up"
             />
           </ul>
